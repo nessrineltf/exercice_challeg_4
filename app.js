@@ -46,6 +46,6 @@ const dogs = [
   const dogsEatingOk= dogs.filter(checkEating);
   console.log("eating ok dogs array ",dogsEatingOk);
   
-  // 8.
+  // 8
   const dogsSorted = dogs.slice().sort((a, b) => a.recFood - b.recFood);
   console.log("dogs sorted array :",dogsSorted);
